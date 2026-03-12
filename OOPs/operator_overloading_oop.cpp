@@ -34,7 +34,6 @@ int main() {
     Complex c1, c2;
     c1.complex_set(1, 1);
     c2.complex_set(2, 2);
-
     Complex c = c1 + c2; // Effectively calls c1.operator+(c2)
     Complex d = c1 - c2;
 
