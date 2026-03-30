@@ -10,7 +10,7 @@ public:
     }
 
     // Inside the class, '+' only takes ONE argument (the right-hand side)
-    Complex operator+(Complex const& obj) {
+    Complex operator+(Complex obj) {
         Complex tmp;
         tmp.real = real + obj.real;
         tmp.imag = imag + obj.imag;
@@ -18,7 +18,7 @@ public:
     }
 
     // Inside the class, '-' only takes ONE argument
-    Complex operator-(Complex const& obj) {
+    Complex operator-(Complex obj) {
         Complex tmp;
         tmp.real = real - obj.real;
         tmp.imag = imag - obj.imag;
